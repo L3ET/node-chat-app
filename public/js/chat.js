@@ -96,3 +96,10 @@ locationbutton.on('click', function (){
         alert ('Unable to fetch location.');
     });
 });
+
+jQuery('#send-btn').on('click',function(){
+    jQuery('#message').focus();
+});
+jQuery('#send-location').on('click',function(){
+    jQuery('#message').focus();
+});
